@@ -1,0 +1,432 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  animation: slide linear;
+  animation-timeline: view();
+  animation-range-start: cover 0%;
+  animation-range-end: cover 30%;
+}
+
+:root {
+  --accent-clr: #e02b2b;
+  --bg-clr: #090909;
+  --main-clr: #ffff;
+  --big: 30rem;
+  --medium: 16rem;
+  --small: 4.5rem;
+}
+
+.animate {
+  animation: slide 1s forwards; /* Adjust duration as needed */
+}
+
+body {
+  background-color: var(--bg-clr);
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Yasuke-hero-bg {
+  background-image: url(./imgs/yasuke\ banner.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+  filter: blur(5px);
+}
+
+#Yasuke-hero {
+  z-index: 2;
+  position: absolute;
+  font-size: var(--big);
+  color: var(--accent-clr);
+  top: 20vh;
+  z-index: 0;
+}
+
+.Yasuke-hero-fg {
+  background-image: url(./imgs/Yasuke\ banner\ without\ BG.png);
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 70%;
+}
+
+#first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Poi {
+  color: var(--accent-clr);
+  font-weight: bold;
+  font-size: var(--medium);
+  max-width: fit-content;
+  line-height: 90%;
+  letter-spacing: -1rem;
+  margin-left: 1rem;
+}
+
+.dates {
+  color: var(--main-clr);
+  font-size: var(--medium);
+  font-weight: bold;
+  margin-right: 1rem;
+  line-height: 90%;
+  text-align: right;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20rem;
+}
+
+#second-section {
+  margin-inline: 4rem;
+}
+
+ul {
+  color: var(--main-clr);
+  font-size: var(--small);
+  font-weight: bold;
+}
+li {
+  margin-bottom: 1rem;
+}
+
+li > span {
+  color: var(--accent-clr);
+}
+
+.Lion-hunter {
+  background-image: url(./imgs/Lions\ hunter.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+
+#third-section {
+  margin-inline: 4rem;
+}
+
+.Alessandro-Valignano {
+  background-image: url(./imgs/Valignano.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 425px;
+  height: 576px;
+}
+
+#fifth-section {
+  margin-inline: 4rem;
+}
+
+.Yasuke-painting {
+  background-image: url(./imgs/yasuke-painting.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 560px;
+  height: 747px;
+  position: relative;
+}
+
+#sixth-section {
+  margin-inline: 4rem;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1r);
+}
+
+.Oda-Nobunaga {
+  background-image: url(./imgs/Oda\ Nobunaga\ painting.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 380px;
+  height: 444px;
+  position: sticky;
+  grid-column: 2/3;
+  top: 2rem;
+  padding-bottom: 5rem;
+}
+
+#seventh-section {
+  margin-inline: 4rem;
+}
+
+.Yasuke-wrestling {
+  background-image: url(imgs/Yasuke\ wrestling.jpg);
+  background-size: 100%;
+  width: 560px;
+  height: 645px;
+  background-repeat: no-repeat;
+}
+
+#eighth-section {
+  margin-inline: 4rem;
+}
+
+.Honno-ji-Incident {
+  background-image: url(./imgs/honno-ji\ incident.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 804px;
+  height: 418px;
+  margin-inline: auto;
+}
+
+#ninth-section {
+  margin-inline: 4rem;
+}
+
+.Akechi-Mitsuhide {
+  background-image: url(./imgs/Mitsuhide\ portrait.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 475px;
+  height: 544px;
+}
+
+#tenth-section {
+  margin-inline: 4rem;
+}
+
+.Seppuku-Illustration {
+  background-image: url(./imgs/Seppuku\ illustration.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 639px;
+  height: 514px;
+}
+
+#twelfth-section {
+  margin-inline: 4rem;
+}
+
+.Show-Banner {
+  background-image: url(./imgs/Yasuke\ show\ banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 688px;
+  height: 388px;
+}
+
+#thirteenth-section {
+  margin-inline: 4rem;
+}
+
+.Oda-Seppuku {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-16\ 18-24-16.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 628px;
+  height: 281px;
+}
+
+#fourteenth-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-inline: 4rem;
+}
+.Yasuke-Seppuku {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-27\ 12-24-00.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 864px;
+  height: 483px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.Oda-Seppuku2 {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-27\ 12-23-39.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 706px;
+  height: 400px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#fourteenth-section > ul {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#fifteenth-section {
+  margin-inline: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.Yasuke-Sweets {
+  background-image: url(./imgs/Yassan\ sweets.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 474px;
+  height: 266px;
+}
+
+.Yasuke-Boating {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-16\ 18-26-17.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 700px;
+  height: 344px;
+  margin-inline: auto;
+  grid-column: 1/2;
+}
+
+.Yasuke-and-Saki-Leaving {
+  background-image: url(./imgs/Yasuke\ &\ saki\ leaving.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 474px;
+  height: 265px;
+}
+
+.Yasuke-Carry-Saki {
+  background-image: url(./imgs/Yasuke-carry\ Saki.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 672px;
+  height: 346px;
+  grid-column: 2/3;
+}
+
+#sixteenth-section {
+  margin-inline: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#seventeenth-section {
+  margin-inline: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.Oda-And-Yasuke-First-Encounter {
+  background-image: url(./imgs/Oda\ Nobunaga\ first\ encounter\ with\ Yasuke.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 366px;
+  height: 281px;
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.Akechi-Mitsuhide-Flashbacks {
+  background-image: url(./imgs/Mitsuhide.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 721px;
+  height: 342px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.Yasuke-And-Oda-First-Encouter {
+  background-image: url(./imgs/Yasuke\ First\ apparition.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 402px;
+  height: 306px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#eighteenth-section {
+  margin-inline: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.Dark-General-stance {
+  background-image: url(./imgs/Dark\ General\ standing.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 473px;
+  height: 248px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.Dark-General {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-16\ 18-33-14.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 692px;
+  height: 388px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+.Dark-General {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-16\ 18-33-14.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 692px;
+  height: 388px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.Mitsuhide-VS-Yasuke {
+  background-image: url(./imgs/yasuke-vs-Mitsuhide.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 458px;
+  height: 353px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#last-section {
+  position: relative;
+}
+#last-section > .Poi {
+  color: var(--main-clr);
+  font-size: var(--big);
+  position: absolute;
+  left: auto;
+  top: 25vh;
+  z-index: 1;
+  text-align: center;
+}
+.Yasuke-laying {
+  background-image: url(./imgs/Screenshot\ from\ 2024-10-27\ 14-05-39.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  filter: blur(5px);
+}
+.Yasuke-laying-no-bg {
+  background-image: url(./imgs/Yasuke\ chilling\ rm\ bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}

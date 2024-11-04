@@ -53,6 +53,7 @@ body {
   color: var(--accent-clr);
   top: 20vh;
   z-index: 0;
+  overflow: hidden;
 }
 
 .Yasuke-hero-fg {
@@ -399,15 +400,18 @@ li > span {
 }
 #last-section {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #last-section > .Poi {
   color: var(--main-clr);
   font-size: var(--big);
   position: absolute;
-  left: auto;
   top: 25vh;
   z-index: 1;
   text-align: center;
+  overflow: hidden;
 }
 .Yasuke-laying {
   background-image: url(./imgs/Screenshot\ from\ 2024-10-27\ 14-05-39.png);

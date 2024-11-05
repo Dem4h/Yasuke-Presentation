@@ -14,9 +14,9 @@
   --accent-clr: #e02b2b;
   --bg-clr: #090909;
   --main-clr: #ffff;
-  --big: 30rem;
-  --medium: 16rem;
-  --small: 4.5rem;
+  --big: clamp(20rem, 30vw, 80vw + 1rem);
+  --medium: clamp(10rem, 10vw, 30vw);
+  --small: clamp(1rem, 5vw, 15vw);
 }
 
 .animate {
@@ -33,6 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .Yasuke-hero-bg {
@@ -43,6 +44,7 @@ body {
   background-repeat: no-repeat;
   z-index: -1;
   position: relative;
+  overflow: hidden;
   filter: blur(5px);
 }
 
@@ -411,7 +413,6 @@ li > span {
   top: 25vh;
   z-index: 1;
   text-align: center;
-  overflow: hidden;
 }
 .Yasuke-laying {
   background-image: url(./imgs/Screenshot\ from\ 2024-10-27\ 14-05-39.png);

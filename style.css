@@ -70,10 +70,7 @@ body {
   opacity: 70%;
 }
 
-#first-section {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .Poi {
   color: var(--accent-clr);
@@ -96,11 +93,8 @@ body {
 section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20rem;
-}
-
-#second-section {
   margin-inline: 4rem;
 }
 
@@ -125,9 +119,7 @@ li > span {
   height: 400px;
 }
 
-#third-section {
-  margin-inline: 4rem;
-}
+
 
 .Alessandro-Valignano {
   background-image: url(./imgs/Valignano.webp);
@@ -137,9 +129,6 @@ li > span {
   height: 576px;
 }
 
-#fifth-section {
-  margin-inline: 4rem;
-}
 
 .Yasuke-painting {
   background-image: url(./imgs/yasuke-painting.jpg);
@@ -170,9 +159,6 @@ li > span {
   padding-bottom: 5rem;
 }
 
-#seventh-section {
-  margin-inline: 4rem;
-}
 
 .Yasuke-wrestling {
   background-image: url(imgs/Yasuke\ wrestling.jpg);
@@ -182,9 +168,7 @@ li > span {
   background-repeat: no-repeat;
 }
 
-#eighth-section {
-  margin-inline: 4rem;
-}
+
 
 .Honno-ji-Incident {
   background-image: url(./imgs/honno-ji\ incident.jpg);
@@ -195,9 +179,6 @@ li > span {
   margin-inline: auto;
 }
 
-#ninth-section {
-  margin-inline: 4rem;
-}
 
 .Akechi-Mitsuhide {
   background-image: url(./imgs/Mitsuhide\ portrait.jpg);
@@ -205,10 +186,6 @@ li > span {
   background-size: 100%;
   width: 475px;
   height: 544px;
-}
-
-#tenth-section {
-  margin-inline: 4rem;
 }
 
 .Seppuku-Illustration {
@@ -219,9 +196,7 @@ li > span {
   height: 514px;
 }
 
-#twelfth-section {
-  margin-inline: 4rem;
-}
+
 
 .Show-Banner {
   background-image: url(./imgs/Yasuke\ show\ banner.jpg);
@@ -231,9 +206,7 @@ li > span {
   height: 388px;
 }
 
-#thirteenth-section {
-  margin-inline: 4rem;
-}
+
 
 .Oda-Seppuku {
   background-image: url(./imgs/Screenshot\ from\ 2024-10-16\ 18-24-16.png);

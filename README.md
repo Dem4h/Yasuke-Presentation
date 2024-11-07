@@ -8,6 +8,7 @@ I don't think I'll be commiting too much on that project but feel free to give m
 
 I used : 
 - HTML
-- Css
- 
+- CSS
+- Vercel (to host the website)
+
 I'm thinking about using tailwind css on that project

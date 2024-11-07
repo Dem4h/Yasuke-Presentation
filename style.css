@@ -391,7 +391,7 @@ li > span {
   background-image: url(./imgs/Screenshot\ from\ 2024-10-27\ 14-05-39.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -402,7 +402,7 @@ li > span {
   background-image: url(./imgs/Yasuke\ chilling\ rm\ bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
